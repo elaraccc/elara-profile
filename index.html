@@ -330,7 +330,7 @@ html[data-mood="sunset"] .mood-tip::after{content:"白天模式"}
     <div class="fx" data-d="12" style="right:2%;bottom:6%"><div style="animation-delay:-4.1s"><div class="st4" style="width:72px;--r:-6deg;animation-delay:-4.1s"></div></div></div>
     <div class="wrap">
       <p class="eyebrow">About</p>
-      <div class="flex flex-wrap items-center gap-4 mt-3 mb-12"><h2 class="h2">關於我</h2><span class="status lg"><span class="dot" aria-hidden="true"></span>待業中</span></div>
+      <div class="flex flex-wrap items-center gap-4 mt-3 mb-12"><h2 class="h2">關於我</h2><span class="status lg"><span class="dot" aria-hidden="true"></span>接案中・可立即上班</span></div>
       <div class="grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] gap-5">
         <article class="card p-6 sm:p-8 rise flex flex-col gap-6">
           <div class="flex items-center gap-4">
@@ -475,7 +475,7 @@ const SKILLS = [
   { g:'軟技能', items:['團隊合作','溝通協調','適應力強'] }
 ];
 const TOOLS = [['Ps','Photoshop'],['Ai','Illustrator'],['Lr','Lightroom'],['Pc','Procreate'],['Pr','Premiere'],['剪','剪映'],['Gp','ChatGPT'],['Ge','Gemini'],['Cl','Claude']];
-const RESUME_URL = 'resume.pdf';
+const RESUME_URL = encodeURI('簡子淨自傳.pdf');
 /* ================================================= */
 
 const ICON={arrow:'<path d="M7 17 17 7M8 7h9v9"/>',x:'<path d="M18 6 6 18M6 6l12 12"/>',menu:'<path d="M4 7h16M4 12h16M4 17h16"/>',
